@@ -16,3 +16,5 @@ shell_call("curl https://raw.githubusercontent.com/Bioconductor/bioc2u/devel/apt
 bspm::enable()
 options(bspm.version.check=FALSE)
 
+git clone git@github.com:benilton/cursos.git
+
