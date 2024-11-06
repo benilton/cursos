@@ -16,4 +16,6 @@ shell_call("curl https://raw.githubusercontent.com/Bioconductor/bioc2u/devel/apt
 bspm::enable()
 options(bspm.version.check=FALSE)
 
-shell_call('git clone https://github.com/benilton/cursos.git')
+shell_call("git clone https://github.com/benilton/cursos.git")
+
+install.packages("readxl")
