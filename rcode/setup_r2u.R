@@ -17,5 +17,6 @@ bspm::enable()
 options(bspm.version.check=FALSE)
 
 shell_call("git clone https://github.com/benilton/cursos.git")
+shell_call("mv cursos/dados/covid19.xlsx . && rm -fr cursos")
 
 install.packages("readxl")
